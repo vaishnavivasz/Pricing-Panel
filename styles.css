@@ -1,0 +1,83 @@
+h1,p{
+    font-family: "Commissioner", sans-serif;
+}
+
+h1{
+    font-weight: 500;
+    font-size: medium;
+    color: gray;
+}
+
+p{
+    color: #4CC9FE;
+    font-size: small;
+    font-weight: 500;
+}
+
+#cost{
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+button{
+   width: 100px;
+   padding: 15px 1px ;
+    border: solid #4CC9FE;
+    color: #4CC9FE; 
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    margin: 5px 0 ;
+    transition: background-color 200ms ease-in-out;
+}
+
+.button:hover{
+    background-color: #e1f1ff;
+}
+.midbutton{
+    background-color: #4CC9FE;
+    color: #e1f1ff;
+}
+
+body{
+    background-color: #4CC9FE;
+}
+
+.priceplan{
+    background-color: rgb(240, 248, 255);
+    border-radius: 15px;
+    margin: 10px;
+   line-height: 70px; 
+    border-bottom: 0.5px #888 solid;
+    text-align: center;
+ 
+}
+
+.priceplanone{
+    display: flex;
+    justify-content: center;
+    flex: 2 2 5px;
+}
+
+@media(max-width:1000px){
+    .priceplanone{
+        flex-direction: column;
+    }
+}
+
+
+.name{
+    line-height: 50px;
+    border-bottom: 1px #888 solid;
+}
+
+.nameone{
+    line-height: 50px;
+
+    border-bottom: 1px #888 solid;
+}
+
+.nametwo{
+line-height: 50px;
+    border-bottom: 1px  #888 solid;
+}
